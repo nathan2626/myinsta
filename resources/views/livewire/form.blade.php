@@ -8,7 +8,8 @@
             <span class="invalid-feedback">{{ $message }}</span>
             @enderror
         </div>
-
-        <button type="submit" class="btn btn-primary">Create</button>
+        <button type="submit"  class="bg-gray-100 hover:bg-blue-dark font-bold py-2 px-4 rounded">
+            Create
+        </button>
     </form>
 </div>

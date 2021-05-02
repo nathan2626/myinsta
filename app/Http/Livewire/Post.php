@@ -2,13 +2,14 @@
 
 namespace App\Http\Livewire;
 
+use Illuminate\Support\Facades\DB;
 use Livewire\Component;
 
 class Post extends Component
 {
     public $post;
 
-    public $name = "Clem";
+//    public $name = "Clem";
 
     public function mount($post)
     {
@@ -17,6 +18,9 @@ class Post extends Component
 
     public function render()
     {
-        return view('livewire.post');
+        $postsForDisplayGreen = DB::table('posts')->get();
+        $countPosts = count($postsForDisplayGreen);
+
+        return view('livewire.post', compact('countPosts'));
     }
 }
