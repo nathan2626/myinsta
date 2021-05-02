@@ -472,7 +472,7 @@
                                 John Doe
                             </p>
                             <div class="w-full font-bold text-xl text-gray-800 px-6">
-                                Lorem ipsum dolor sit amet.
+                                Amazing !
                             </div>
                             <p class="text-gray-800 text-base px-6 mb-5">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
@@ -481,9 +481,11 @@
                     </div>
                     <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
                         <div class="flex items-center justify-start">
+                            <a href="/">
                             <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                                Action
+                                Subscribe
                             </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -494,7 +496,7 @@
                                 Jane Doe
                             </p>
                             <div class="w-full font-bold text-xl text-gray-800 px-6">
-                                Lorem ipsum dolor sit amet.
+                                Beautiful !
                             </div>
                             <p class="text-gray-800 text-base px-6 mb-5">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
@@ -503,9 +505,11 @@
                     </div>
                     <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
                         <div class="flex items-center justify-center">
-                            <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                                Action
-                            </button>
+                            <a href="/">
+                                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                    Subscribe
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -516,7 +520,7 @@
                                 Habib Doe
                             </p>
                             <div class="w-full font-bold text-xl text-gray-800 px-6">
-                                Lorem ipsum dolor sit amet.
+                                WOW !
                             </div>
                             <p class="text-gray-800 text-base px-6 mb-5">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
@@ -525,90 +529,11 @@
                     </div>
                     <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
                         <div class="flex items-center justify-end">
-                            <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                                Action
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="bg-gray-100 py-8">
-            <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
-                <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-                    Pricing
-                </h1>
-                <div class="w-full mb-4">
-                    <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-                </div>
-                <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
-                    <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
-                        <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
-                            <div class="p-8 text-3xl font-bold text-center border-b-4">
-                                Free
-                            </div>
-                            <ul class="w-full text-center text-sm">
-                                <li class="border-b py-4">Thing</li>
-                                <li class="border-b py-4">Thing</li>
-                                <li class="border-b py-4">Thing</li>
-                            </ul>
-                        </div>
-                        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                            <div class="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                                £0
-                                <span class="text-base">for one user</span>
-                            </div>
-                            <div class="flex items-center justify-center">
+                            <a href="/">
                                 <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                                    Sign Up
+                                    Subscribe
                                 </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
-                        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-                            <div class="w-full p-8 text-3xl font-bold text-center">Basic</div>
-                            <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
-                            <ul class="w-full text-center text-base font-bold">
-                                <li class="border-b py-4">Thing</li>
-                                <li class="border-b py-4">Thing</li>
-                                <li class="border-b py-4">Thing</li>
-                                <li class="border-b py-4">Thing</li>
-                            </ul>
-                        </div>
-                        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                            <div class="w-full pt-6 text-4xl font-bold text-center">
-                                £x.99
-                                <span class="text-base">/ per user</span>
-                            </div>
-                            <div class="flex items-center justify-center">
-                                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                                    Sign Up
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
-                        <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
-                            <div class="p-8 text-3xl font-bold text-center border-b-4">
-                                Pro
-                            </div>
-                            <ul class="w-full text-center text-sm">
-                                <li class="border-b py-4">Thing</li>
-                                <li class="border-b py-4">Thing</li>
-                                <li class="border-b py-4">Thing</li>
-                            </ul>
-                        </div>
-                        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                            <div class="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                                £x.99
-                                <span class="text-base">/ per user</span>
-                            </div>
-                            <div class="flex items-center justify-center">
-                                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                                    Sign Up
-                                </button>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -644,11 +569,13 @@
                 <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
             </div>
             <h3 class="my-4 text-3xl leading-tight">
-                Main Hero Message to sell yourself!
+                Always the same action called :
             </h3>
-            <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Action!
-            </button>
+            <a href="/">
+                <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                    SUBSCRIBE !
+                </button>
+            </a>
         </section>
         <!--Footer-->
         <footer class="bg-white">
@@ -656,15 +583,8 @@
                 <div class="w-full flex flex-col md:flex-row py-6">
                     <div class="flex-1 mb-6 text-black">
                         <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-                            <!--Icon from: http://www.potlabicons.com/ -->
-                            <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
-                                <rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" />
-                                <path
-                                    class="plane-take-off"
-                                    d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "
-                                />
-                            </svg>
-                            LANDING
+                            <img class="h-8 fill-current inline" src="instaLogo.png" />
+                            MYINSTA
                         </a>
                     </div>
                     <div class="flex-1">
