@@ -26,6 +26,8 @@ Route::post('/dashboard', '\App\Http\Controllers\DashboardController@createPost'
 Route::get('/user', function () {
     return view('userForm');
 });
+Route::post('/user', '\App\Http\Controllers\DashboardController@editUser');
 
+Route::get('/user/delete/{id}', '\App\Http\Controllers\DashboardController@delete')->middleware(['auth']);
 
 require __DIR__.'/auth.php';

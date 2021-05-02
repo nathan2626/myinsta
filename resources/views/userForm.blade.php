@@ -20,28 +20,26 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
                     <!-- Validation Errors -->
-                    <x-auth-validation-errors class="mb-4" :errors="$errors" />
-
-                    <form method="POST" action="{{ route('register') }}">
+                    <form method="POST" enctype="multipart/form-data" action="">
                     @csrf
 
                     <!-- Name -->
                         <div>
-                            <label for="name" value="Name" />
+                            <label for="name" value="{{ Auth::user()->name }}" />
 
-                            <input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus />
+                            <input id="name" class="block mt-1 w-full" type="text" name="name" value="{{ Auth::user()->name }}" required autofocus />
                         </div>
 
                         <!-- Email Address -->
                         <div class="mt-4">
-                            <label for="email" value="Email" />
+                            <label for="email" value="{{ Auth::user()->email }}" />
 
-                            <input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
+                            <input id="email" class="block mt-1 w-full" type="email" name="email" value="{{ Auth::user()->email }}" required />
                         </div>
 
                         <!-- Password -->
                         <div class="mt-4">
-                            <label for="password" value="Password" />
+                            <label for="password" value="**************" />
 
                             <input id="password" class="block mt-1 w-full"
                                      type="password"
@@ -49,20 +47,19 @@
                                      required autocomplete="new-password" />
                         </div>
 
-                        <!-- Confirm Password -->
                         <div class="mt-4">
-                            <label for="image_confirmation" value="Confirm Image" />
+                            <label for="image_confirmation" />
 
                             <input id="image_confirmation" class="block mt-1 w-full"
                                      type="file"
-                                     name="image_confirmation" required />
+                                     name="image_confirmation" />
                         </div>
 
                         <div class="flex items-center justify-end mt-4">
-                            <button class="ml-4">
+                            <button type="submit" class="ml-4">
                                 Edit
                             </button>
-                            <a class="ml-4" href="{{}}">
+                            <a class="ml-4" href="/user/delete/{{Auth::user()->id}}">
                                 Delete
                             </a>
                         </div>

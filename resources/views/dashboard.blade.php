@@ -22,8 +22,12 @@
                     <p class="text-gray-700 text-base">{{ Auth::user()->email }}</p>
                 </div>
                 <div class="flex items-center">
-                    <img class="w-10 h-10 rounded-full mr-4" src="instaLogo.png" alt="Avatar of Writer">
-                    <div class="text-sm">
+                    @if(Auth::user()->image_confirmation)
+                        <img class="w-10 h-10 rounded-full mr-4" src="{{url('/imgs/'.Auth::user()->image_confirmation)}}" alt="Avatar of Writer">
+                    @else
+                        <img class="w-10 h-10 rounded-full mr-4" src="instaLogo.png" alt="Avatar of Writer">
+                    @endif
+                        <div class="text-sm">
                         <p class="text-gray-900 leading-none">{{ Auth::user()->name }}</p>
                         <p class="text-gray-600">Since {{ Auth::user()->created_at }}</p>
                     </div>
